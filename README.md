@@ -2,10 +2,6 @@
 
 ### This is a very simple Text-Adventure game. 
 
-## Explanation
-
-In the Code-Explanation folder is a detailed explanation about how the simple code works and the structure.
-
 ## Preview
 
 ##### First question
