@@ -41,17 +41,17 @@ function selectOption(option) {
 
 const textNodes = [{
         id: 1,
-        text: 'You wake up in a strange place and you see a jar of blue goo near you.',
+        text: 'Wie möchtest du nach Hogwarts reisen',
         options: [{
-                text: 'Take the goo',
+                text: 'Gleis 9 3/4',
                 setState: {
                     blueGoo: true
                 },
                 nextText: 2
             },
             {
-                text: 'Leave the goo',
-                nextText: 2
+                text: 'Auto',
+                nextText: 4
             }
         ]
     },
@@ -101,7 +101,7 @@ const textNodes = [{
     },
     {
         id: 4,
-        text: 'You are so tired that you fall asleep while exploring the castle and are killed by some terrible monster in your sleep.',
+        text: 'Man kommt mit dem Auto nicht nach Hogwarts. Du wirst dort leider nie ankommen.',
         options: [{
             text: 'Restart',
             nextText: -1
