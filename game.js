@@ -47,7 +47,7 @@ const textNodes = [{
                 setState: {
                     blueGoo: true
                 },
-                nextText: 2
+                nextText: 5
             },
             {
                 text: 'Auto',
@@ -109,7 +109,7 @@ const textNodes = [{
     },
     {
         id: 5,
-        text: 'Without any money to buy a room you break into the nearest inn and fall asleep. After a few hours of sleep the owner of the inn finds you and has the town guard lock you in a cell.',
+        text: 'Du kommst erfolgreich in Hogwarts an.',
         options: [{
             text: 'Restart',
             nextText: -1
